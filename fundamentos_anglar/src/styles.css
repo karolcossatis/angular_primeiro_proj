@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+button {
+    width: 400px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: filter .3s ease-in-out;
+    display: block;
+    margin:  10px 0;
+}

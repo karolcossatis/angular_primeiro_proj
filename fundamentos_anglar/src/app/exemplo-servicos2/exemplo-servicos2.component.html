@@ -1,0 +1,7 @@
+<h2>Serviço 02</h2>
+<label for="produto">Digite um produto: </label>
+<input type="text" [(ngModel)]="produto"> 
+<!-- aqui o ngmodel vai apontar para nome, ele faz: uma ligação de dados bidirecional -->
+<button type="button" (click)="adicionarProduto()">Adicionar produto</button>
+<!--Criado o botao, que irá ter o metodo adicionarNome() ao evento de click nele.-->
+<button type="button" (click)="this.logger.exibeTodosOsLogs()">Exibe todos Logs </button>
